@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" type="x-icon" href="images/code-solid.svg">
+    <title>Damien BARRE</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="menus">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <!--<li><a href="#projects">Projects</a></li>-->
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Junior Software Engineer</p>
+                <h1>Hello, I am Damien Barre</h1>
+                <h2>I love learning about new things. I enjoy technology, <br/>
+                traveling, reading and more<br/></h2>
+                 
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="abt-col-1">
+                    <img src="images/DB.jpg">
+                </div>
+                <div class="abt-col-2">
+                    <h1 class="sub-header">Who I am</h1>
+                    <p>I began my journey in software engineering around my 30 years old. Since teenager i was  <br>
+                        interested in Information Technology and coding, but only in my late 20's to start learning about <br> 
+                        web development and software engineering . At this time i love it and focus on that.    
+                    </p>
+
+                    <div class="tabs">
+                        <p class="tab-links act-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-conts act-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br/>English, French and Indonesian</li>
+                            <li><span>Front-End</span><br/>React, HTML, CSS, Javascript</li>
+                            <li><span>Back-End</span><br/>Node, Express, PHP</li>
+                            <li><span>Database</span><br/>MySQL, SQL Server</li>
+                            <li><span>Tools</span><br/>Git, Github, Bitbucket, Postman, PowerShell, Selenium </li>
+                            <li><span>Operating Systems</span><br>Windows, Linux, Mac</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-conts" id="experience">
+                        <ul>
+                            <li><span>Sep 2023 - Present</span><br>Freelance Web Developer</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-conts" id="education">
+                        <ul>
+                            <li><span>Juin 2023</span><br/>Join the Freecodecamp formation</li>
+                        </ul>
+                    </div>
+
+                </div>
+               <!-- <div class="resume">
+                    <a href="images/A_C_Resume.pdf" download class="btn btncv">Download Resume</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-header">Services</h1>
+
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p><!--I am experienced developing web applications using Javascript, Express, Node, and React.--></p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-pen"></i>
+                    <h2>Web Design</h2>
+                    <p><!--I like designing software products using Figma, Mural, and Canva. This differenciates the products in the market.--></p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-mobile"></i>
+                    <h2>Mobile Development</h2>
+                    <p><!--I am experienced developing mobile applications using React Native and Swift.--></p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+                                            <!-- pour les futurs projets
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-header">Projects</h1>
+            
+            <div class="work-list">
+                <div class="work">
+                    <img src="">
+                    <div class="layer">
+                       <h3></h3>
+                       <p></p>
+                       <a href="" target="_blank" rel="noreferrer noopener"> <i class="fa-solid fa-link"></i></a> 
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="">
+                    <div class="layer">
+                        <h3></h3>
+                        <p></p>
+                        <a href="" target="_blank" rel="noreferrer noopener"> <i class="fa-solid fa-link"></i></a> 
+                     </div>
+                </div>
+
+                <div class="work">
+                    <img src="">
+                    <div class="layer">
+                        <h3></h3>
+                        <p></p>
+                        <a href="" target="_blank" rel="noreferrer noopener"> <i class="fa-solid fa-link"></i></a> 
+                     </div>
+                </div>
+            </div>
+            <a href="github" target="_blank" rel="noreferrer noopener" class="btn">See more</a>
+        </div>
+                                                      fin des projets-->
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-l">
+                    <h1 class="sub-header">Let's Connect</h1>
+                    <p> <i class="fa-solid fa-envelope"></i> dambwebdev@gmail.com</p>
+                    <div class="social">
+                      <!--  <a href="https://www.instagram.com/andres.choque23/" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="linkind" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="github" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-github"></i></a>-->
+
+                    </div>
+                </div>
+
+                <div class="contact-r">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Name" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <textarea name="Message" id=""  rows="6" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btncv">Submit</button>
+                    </form>
+                    <span id="submit-msg"></span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>©️ 2023 Barre Damien. All rights reserved.</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
